@@ -150,4 +150,23 @@ padding: 0;
 }
 
 
+.left-carts .cart {
+   display: flex;
+}
 
+.left-carts img {
+  width: 46%;
+}
+
+.left-carts .cart-items {
+  width: 100%;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-carts .cart-items p {
+  width: 38%;
+  
+}
