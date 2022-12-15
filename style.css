@@ -130,8 +130,20 @@ padding: 0;
 .carts {
    display: flex;
    justify-content: space-between;
-}
+   margin-bottom: 62px;
+} 
 
 .cart-items {
   text-align: center;
+}
+
+.header-blue-img {
+  background-image: url(/image/Blue_header.jpg);
+  background-position: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-blue-img .header-item h1 {
+  width: 623px;
 }
