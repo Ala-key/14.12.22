@@ -225,6 +225,11 @@ background: #717353;
   height: 392px;
 }
 
+.footer-item {
+  display: flex;
+  justify-content: space-around;
+}
+
 .white-line {
   display: inline-block;
   height: 3px;
