@@ -180,6 +180,10 @@ padding: 0;
   flex-direction: row-reverse;
 }
 
+.mar-bot {
+  margin-bottom: 188px;
+}
+
 .subscribes {
   text-align: center;
 }
