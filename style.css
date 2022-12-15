@@ -142,8 +142,12 @@ padding: 0;
   background-position: center;
   align-items: center;
   justify-content: flex-start;
+  margin-bottom: 61px;
 }
 
 .header-blue-img .header-item h1 {
   width: 623px;
 }
+
+
+
