@@ -180,3 +180,25 @@ padding: 0;
   flex-direction: row-reverse;
 }
 
+.subscribes {
+  text-align: center;
+}
+
+.subscribes .subscribe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.subscribe .line {
+  width: 300px;
+  height: 5px;
+  background-color: #56593D;
+  margin-right: 21px;
+}
+
+.subscribe button {
+  background-color: #56593D;
+  color: #fff;
+}
