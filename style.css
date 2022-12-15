@@ -170,3 +170,12 @@ padding: 0;
   width: 38%;
   
 }
+
+.left-carts.right{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.left-carts.right-carts .cart {
+  flex-direction: row-reverse;
+}
