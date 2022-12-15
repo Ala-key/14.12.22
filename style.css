@@ -225,6 +225,9 @@ background: #717353;
   height: 392px;
 }
 
-.white_line {
-
+.white-line {
+  display: inline-block;
+  height: 3px;
+  background-color: #fff;
+  width: 70px;
 }
