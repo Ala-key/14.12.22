@@ -42,6 +42,7 @@
 .container {
   max-width: 1257px;
   margin: 34px auto;
+  color: #56593D;
 }
 
 .top-bar ul {
@@ -148,7 +149,6 @@ text-align: left;
   width: 100%;
   justify-content: center;
   font-family: Roboto;
-  background: #56593D;
 
 }
 
