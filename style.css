@@ -167,10 +167,8 @@ text-align: left;
 
 .quote {
   display: flex;
-  width: 100%;
   justify-content: center;
   font-family: Roboto;
-
 }
 
 .quote h2 {
@@ -184,7 +182,7 @@ text-align: left;
 .carts {
    display: flex;
    justify-content: space-between;
-   margin-bottom: 62px;
+   margin-bottom: 141px;
 } 
 
 .carts-container {
@@ -262,6 +260,7 @@ height: 100%;
 
 .subscribes {
   text-align: center;
+  margin: 114px;
 }
 
 .subscribes .subscribe{
@@ -275,13 +274,19 @@ height: 100%;
   width: 300px;
   height: 5px;
   background-color: #56593D;
-  margin-right: 21px;
+  margin: 10px;
 }
 
 .subscribe button {
   background-color: #56593D;
   color: #fff;
   font-size: 13px;
+}
+
+@media screen and (max-width:420px) {
+  .subscribe {
+    flex-wrap: wrap;
+  }
 }
 
 .row {
@@ -343,7 +348,6 @@ background: #717353;
 
 .footer-item .menu {
   list-style-type: none;
-  padding-top: 84px;
 }
 
 .footer-item .menu li {
@@ -366,4 +370,11 @@ background: #717353;
   display: flex;
 
 }
+
+.link-show {
+  display: inline;
+  position: absolute;
+  left: 43%;
+}
+
 
