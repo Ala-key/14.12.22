@@ -61,7 +61,7 @@
 .header{
    display: flex;
    align-items: center;
-
+   position: relative;
 }
 
 .top-bar ul li {
@@ -84,7 +84,11 @@ text-align: left;
 .img-nav {
   width: 80px;
   height: 25px;
-  margin-left: 211px;
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  width: 80px;
+  height: 25px;
 }
 
 .icons {
@@ -184,7 +188,7 @@ height: 100%;
 }
 
 .header-blue-img .header-item h1 {
-  width: 623px;
+  max-width: 100%;
 }
 
 
@@ -204,10 +208,7 @@ height: 100%;
     justify-content: center;
 }
 
-.left-carts .cart-items p {
-  width: 38%;
-  
-}
+
 
 .left-carts.right{
   display: flex;
