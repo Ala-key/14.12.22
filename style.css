@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 .col-1 {
   flex: 8.3% 0 0;
 }
@@ -213,6 +217,10 @@ height: 100%;
   text-align: center;
 }
 
+.cart-items h2 {
+   margin-top: 0;
+}
+
 .header-blue-img {
   background-image: url(/image/Blue_header.jpg);
   background-position: center;
@@ -368,13 +376,24 @@ background: #717353;
 
 .mega-menu {
   display: flex;
+}
 
+@media screen and (max-width:420px) {
+  .header-blue-img {
+    height: 46vh;
+  }
 }
 
 .link-show {
   display: inline;
   position: absolute;
   left: 43%;
+}
+
+@media  screen and (max-width:460px) {
+  .link-show {
+    left: 32%;
+  }
 }
 
 
