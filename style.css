@@ -390,6 +390,10 @@ background: #717353;
   left: 43%;
 }
 
+.link-show a {
+  padding: 5px;
+}
+
 @media  screen and (max-width:460px) {
   .link-show {
     left: 32%;
