@@ -104,7 +104,7 @@ text-align: left;
 
 .icons img {
   width: 23%;
-
+  padding: 7px;
 }
 
 .top-bar .icons img {
@@ -128,7 +128,7 @@ text-align: left;
 
 @media screen and (max-width:850px) {
   .header-open {
-    height: 44vh;
+    height: 140vh;
   }
   .top-bar {
     display: none;
@@ -343,8 +343,9 @@ background: #717353;
 .footer-item {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 
 .white-line {
