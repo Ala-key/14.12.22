@@ -1,0 +1,25 @@
+@media screen and (min-width:320){
+  
+}
+
+@media screen and (max-width:420px) {
+  .carts {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media  screen and (min-width:421px) and (max-width:950px) {
+  .carts{
+    flex-direction: column;
+    width: 45%;
+  }
+}
+
+
+@media screen and (max-width:420px) {
+  .subscribe {
+    flex-wrap: wrap;
+  }
+}
+

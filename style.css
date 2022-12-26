@@ -126,29 +126,7 @@ text-align: left;
     background-size: 103% 88%;
 }
 
-@media screen and (max-width:850px) {
-  .header-open {
-    height: 140vh;
-  }
-  .top-bar {
-    display: none;
-  }
-}
 
-@media screen and (max-width:420px) {
-  .header-open {
-    height: 36vh;
-  }
-  .top-bar {
-    display: none;
-  }
-}
-
-@media screen and  (max-width:1000px) and (min-width:851px) {
-  .header-open {
-    height: 56vh;
-  }
-}
 
 .header-open button {
    padding: 13px 39px;
@@ -163,11 +141,6 @@ text-align: left;
   margin-bottom: 89px;
 }
 
-@media  screen and (max-width:420px) {
-  .header-item {
-    margin-right: 0px;
-  }
-}
 
 .quote {
   display: flex;
@@ -194,19 +167,7 @@ text-align: left;
   justify-content: center;
 }
 
-@media screen and (max-width:420px) {
-  .carts {
-    flex-direction: column;
-    width: 100%;
-  }
-}
 
-@media  screen and (min-width:421px) and (max-width:950px) {
-  .carts{
-    flex-direction: column;
-    width: 45%;
-  }
-}
 
 .cart img {
 width: 100%;
@@ -291,11 +252,6 @@ height: 100%;
   font-size: 13px;
 }
 
-@media screen and (max-width:420px) {
-  .subscribe {
-    flex-wrap: wrap;
-  }
-}
 
 .row {
   display: flex;
@@ -305,31 +261,6 @@ height: 100%;
   height: 79%;
   width: 100%;
   padding: 3px;
-}
-
-@media screen and (max-width:420px) {
-  .row {
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-  }
-}
-
-@media  screen and (min-width:421px) and (max-width:700px) {
-  .row {
-    flex-direction: column;
-    width: 57%;
-    margin: 0 auto
-  }
-}
-
-
-@media  screen and (min-width:701px) and (max-width:1024px) {
-  .row {
-    flex-direction: column;
-    width: 35%;
-    margin: 0 auto
-  }
 }
 
 
@@ -369,21 +300,11 @@ background: #717353;
    text-decoration: none;
 }
 
-/* @media screen and (max-width:1521px) {
-  .container{
-    
-  }
-} */
 
 .mega-menu {
   display: flex;
 }
 
-@media screen and (max-width:420px) {
-  .header-blue-img {
-    height: 46vh;
-  }
-}
 
 .link-show {
   display: inline;
@@ -393,12 +314,6 @@ background: #717353;
 
 .link-show a {
   padding: 8px;
-}
-
-@media  screen and (max-width:460px) {
-  .link-show {
-    left: 29%;
-  }
 }
 
 
