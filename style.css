@@ -120,7 +120,8 @@ text-align: left;
     max-width: 100%;
     height: 700px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -313,5 +314,4 @@ background: #717353;
 .link-show a {
   padding: 8px;
 }
-
 
