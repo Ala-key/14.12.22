@@ -106,8 +106,8 @@ text-align: left;
 }
 
 .top-bar .icons img {
- width: 18px;
- height: 20px;
+ width: 32px;
+ height: 34px;
  margin-left: 5px;
 }
 
@@ -306,12 +306,16 @@ background: #717353;
 
 
 .link-show {
-  display: inline;
-  position: absolute;
-  left: 43%;
+ width: 100%;
+ text-align: center;
 }
 
 .link-show a {
   padding: 8px;
 }
 
+
+.kinnmoments {
+  text-align: center; 
+  margin: 29px;
+}
