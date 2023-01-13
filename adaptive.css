@@ -54,6 +54,17 @@
 
 }
 
+@media  screen and (max-width:450px) {
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cart img {
+    width: 68%;
+  }
+}
+
 @media  screen and (max-width:1000px)  {
   .cart {
     flex-wrap: wrap;
