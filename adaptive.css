@@ -61,5 +61,7 @@
     flex-wrap: wrap;
   }
 
- 
+  .cart img {
+    margin: 0 auto;
+  }
 }
