@@ -36,3 +36,22 @@
   }
 }
 
+@media screen and (max-width:1091px) {
+  .top-bar ul {
+    display: none;
+  }
+  .top-bar .icons {
+    display: none;
+  }
+
+  .top-bar .img-nav {
+    margin: 20px auto;
+
+  }
+
+  .hor-menu {
+    visibility: visible;
+  }
+
+}
+
