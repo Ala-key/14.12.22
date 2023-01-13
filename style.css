@@ -164,7 +164,7 @@ body {
 .carts {
   display: flex;
   justify-content: space-between;
-   margin-bottom: 141px;
+  margin-bottom: 141px;
 } 
 
 .carts-container {
