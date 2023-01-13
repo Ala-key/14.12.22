@@ -76,7 +76,7 @@ body {
   visibility: hidden;
   flex: 0 0 auto;
   width: 22px;
-   height: 22px;
+  height: 22px;
    transform: translateX(-45px);
 }
 
