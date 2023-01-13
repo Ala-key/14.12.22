@@ -77,7 +77,7 @@ body {
   flex: 0 0 auto;
   width: 22px;
   height: 22px;
-   transform: translateX(-45px);
+  transform: translateX(-45px);
 }
 
 .top-bar ul li {
