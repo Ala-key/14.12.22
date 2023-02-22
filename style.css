@@ -228,8 +228,10 @@ body {
   flex-direction: row-reverse;
 }
 
-.mar-bot {
+.tool {
   margin-bottom: 188px;
+  display: flex;
+  flex-direction: column;
 }
 
 .subscribes {
