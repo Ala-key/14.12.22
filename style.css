@@ -201,10 +201,6 @@ body {
 }
 
 
-.slogan {
- 
-}
-
 
 .cart img {
   width: 100%;
@@ -217,7 +213,14 @@ body {
 
 .cart-items h2 {
   margin-top: 0;
+  font-size: 22px;
 }
+
+.cart-items p {
+  width: 37%;
+}
+
+
 
 .header-blue-img {
   background-image: url(/image/blue_header.jpg);
@@ -274,6 +277,11 @@ body {
   margin: 114px;
 }
 
+
+.subscribes p{
+  font-size: 14px;
+}
+
 .subscribes .subscribe{
   display: flex;
   justify-content: center;
@@ -282,15 +290,18 @@ body {
 
 .subscribe .line {
   width: 300px;
-  height: 5px;
+  height: 1px;
   background-color: #56593D;
   margin: 10px;
+  margin-top: 26px;
 }
 
 .subscribe button {
   background-color: #56593D;
   color: #fff;
   font-size: 13px;
+  height: 22px;
+  width: 144px;
 }
 
 .row {
@@ -365,4 +376,7 @@ footer {
 
 .header-item p {
   margin-left: 43%;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 13px;
 }
