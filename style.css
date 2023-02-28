@@ -54,6 +54,10 @@ body {
   font-weight: 400;
 }
 
+.roboto h1{
+  font-weight: 400;
+}
+
 .jost {
   font-family: "Jost";
   font-weight: 400;
@@ -171,7 +175,7 @@ body {
   font-weight: 400;
 }
 
-.joke h2{
+.jost h2{
   font-weight: 400;
 }
 
@@ -180,7 +184,7 @@ body {
   letter-spacing: 5px;
   line-height: 53px;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 42px;
   font-weight: 400;
 }
 
@@ -188,6 +192,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 141px;
+  font-size: 15px;
 } 
 
 .carts-container {
@@ -336,11 +341,17 @@ footer {
  text-align: center;
 }
 
+
 .link-show a {
   padding: 8px;
+}
+
+.size16 {
+ font-size: 16px;
 }
 
 .kinnmoments {
   text-align: center; 
   margin: 29px;
+  font-size: 18px;
 }
