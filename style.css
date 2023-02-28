@@ -202,7 +202,7 @@ body {
 
 
 .slogan {
-
+ 
 }
 
 
@@ -229,7 +229,9 @@ body {
 }
 
 .header-blue-img .header-item h1 {
-  max-width: 100%;
+    max-width: 56%;
+    margin: 0 auto;
+    font-size: 33px;
 }
 
 
@@ -358,4 +360,9 @@ footer {
   text-align: center; 
   margin: 29px;
   font-size: 18px;
+}
+
+
+.header-item p {
+  margin-left: 43%;
 }
