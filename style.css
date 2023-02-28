@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@0;1&family=Roboto:ital@0;1&display=swap');
 
 
 
@@ -51,15 +50,17 @@ body {
 }
 
 .roboto {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto";
   font-weight: 400;
 }
 
 .jost {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost";
   font-weight: 400;
 }
-
+.jost h1{
+  font-weight: 400;
+}
 
 .container {
   max-width: 1257px;
@@ -99,12 +100,13 @@ body {
   padding: 11px;
 }
 
+
 .top-bar ul li a {
   padding: 0;
   color: #56593D;
   text-decoration: none;
   font-family: Roboto;
-  font-size: 19px;
+  font-size: 16x;
   font-weight: 400;
   line-height: 25px;
   letter-spacing: 1.5;
@@ -166,6 +168,11 @@ body {
   display: flex;
   justify-content: center;
   font-family: Roboto;
+  font-weight: 400;
+}
+
+.joke h2{
+  font-weight: 400;
 }
 
 .quote h2 {
@@ -174,6 +181,7 @@ body {
   line-height: 53px;
   font-weight: bold;
   font-size: 36px;
+  font-weight: 400;
 }
 
 .carts {
