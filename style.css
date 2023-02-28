@@ -307,10 +307,11 @@ body {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .row img {
-  height: 79%;
+  height: 94%;
   width: 100%;
   padding: 3px;
 }
