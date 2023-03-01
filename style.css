@@ -124,8 +124,8 @@ body {
 }
 
 .icons {
-  flex: 1 1 0;
-  text-align: right;
+  padding-left: 33%;
+  padding-right: 2%;
 }
 
 .icons img {
@@ -147,7 +147,7 @@ body {
   background-image: url(/image/rectangle.jpg);
   max-width: 94%;
   margin: 0 auto;
-  height: 700px;
+  height: 586px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -247,6 +247,11 @@ body {
 
 .left-carts img {
   width: 46%;
+  margin-left: 63px;
+}
+
+.right-carts {
+  margin-right: 50px;
 }
 
 .left-carts .cart-items {
