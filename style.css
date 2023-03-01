@@ -145,7 +145,8 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   background-image: url(/image/rectangle.jpg);
-  max-width: 100%;
+  max-width: 94%;
+  margin: 0 auto;
   height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -312,7 +313,7 @@ body {
 
 .row img {
   height: 94%;
-  width: 100%;
+  width: 96%;
   padding: 3px;
 }
 
@@ -339,6 +340,7 @@ footer {
 
 .footer-item .menu {
   list-style-type: none;
+  margin: 62px;
 }
 
 .footer-item .menu li {
@@ -353,6 +355,7 @@ footer {
 
 .mega-menu {
   display: flex;
+  padding-top: 2%;
 }
 
 .link-show {
@@ -382,3 +385,12 @@ footer {
   font-weight: 400;
   font-size: 13px;
 }
+
+.text-items {
+  padding-top: 6%;
+}
+
+.social {
+  padding: 7%;
+}
+

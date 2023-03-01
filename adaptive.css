@@ -79,4 +79,22 @@
     padding: 21px;
 
   }
+
+  .text-items {
+    padding: 0px;
+  }
+
+  .mega-menu {
+    padding: 0px;
+  }
+
+  .mega-menu .menu {
+    margin: 0px;
+  }
+
+  .social {
+    padding: 0px;
+  }
+
+  
 }
